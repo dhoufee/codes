@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Decimal {
     public static void main(String[] args){
-        int num=67;
+        int num=77;
         String binary="";
         while(num>0){
             binary=(num%2)+binary;
