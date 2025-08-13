@@ -8,9 +8,6 @@ public class Main
                 //System.out.println("enter the second word:");
                 String b="";
                 int n=a.length();
-        //        int n1=b.length();
-        //        int c=0;
-        //        String t="";
                 for(char c:a.toCharArray()){
                     if((c>='a'&&c<='z')||(c>='A'&&c<='Z'))
                    b=b+c;
@@ -20,15 +17,3 @@ public class Main
                 System.out.print(b);
 
         }}
-
-
-
-//         }
-//         if(a.equals(b)){
-//            // System.out.print(t);
-//                         System.out.println("palindrome");
-//                     }
-//                     else{
-//                          System.out.println("not palindrome");
-
-//                     }
